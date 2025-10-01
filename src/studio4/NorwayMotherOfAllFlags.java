@@ -28,9 +28,19 @@ public class NorwayMotherOfAllFlags {
 		mother();
 	}
 
+	private static void frenchflag() {
+		StdDraw.clear();
+		StdDraw.setPenColor(0, 0, 255);
+		StdDraw.filledRectangle(3, 8, 3, 4);
+		StdDraw.setPenColor(255, 255, 255);
+		StdDraw.filledRectangle(9, 8, 3, 4);
+		StdDraw.setPenColor(255,0,0);
+		StdDraw.filledRectangle(15, 8, 3, 4);
+	}
 	public static void france() {
-		
-		// TODO
+		StdDraw.setXscale(0, 28);
+		StdDraw.setYscale(0, 16);	
+		frenchflag();
 	}
 
 	public static void indonesia() {
@@ -55,7 +65,7 @@ public class NorwayMotherOfAllFlags {
 
 	public static void finland() {
 		
-		// TODO
+		// TOdhdhdhdhO
 	}
 
 	public static void main(String[] args) {
